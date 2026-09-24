@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
 void main(){
+  //Inicializamos el numero pi y el año actual
   const numeroPi= math.pi;
-
   final annoActual = DateTime.now().year;
 
   //Inicializamos la variable, en el caso de que la funcion sea true sera año bisiesto, si no no

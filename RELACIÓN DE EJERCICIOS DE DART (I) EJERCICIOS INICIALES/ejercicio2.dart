@@ -15,8 +15,13 @@ void main(){
   (int,String) record = (1,"Miguel");
   
   //Las imprimimos por pantalla
+  print(numeroEntero);
+  print(numeroDouble);
+  print(caracter);
+  print(boleano);
+  print(variable);
   print(lista[1]);
   print(diccionario.first);
   print(map["nombre"]);
   print(record.$1);
-}
+} 
